@@ -8,6 +8,7 @@ const { Pool } = require('pg');
 
 const app = express();
 const port = process.env.PORT || 4000;
+console.log("🚀 Backend booted at", new Date().toISOString());
 
 app.use(cors({
   origin: [
